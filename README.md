@@ -2,7 +2,8 @@ ft_printf projesi, C dilinde variadic fonksiyonları kullanmayı ve printf fonks
 
 ### Fonksiyon Prototipi
 ```c
-int ft_printf(const char *format, ...); ```
+int ft_printf(const char *format, ...);
+```
 
 Bu projede, standart printf fonksiyonunun taklit eden bir kütüphane oluşturulması gerekmektedir. Şu dönüşümleri desteklemelidir:
 
