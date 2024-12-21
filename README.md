@@ -1,7 +1,10 @@
 ft_printf projesi, C dilinde variadic fonksiyonları kullanmayı ve printf fonksiyonunun yeniden yazılmasını hedefleyen bir projedir.
-Genel Bilgiler
 
-Bu projede, standart printf fonksiyonunun taklit eden bir kütüphane oluşturulması gerekmektedir. Projenin çıktısı, libftprintf.a adında bir statik kütüphane olacaktır. Şu dönüşümleri desteklemelidir:
+### Fonksiyon Prototipi
+```c
+int ft_printf(const char *format, ...);
+
+Bu projede, standart printf fonksiyonunun taklit eden bir kütüphane oluşturulması gerekmektedir. Şu dönüşümleri desteklemelidir:
 
 Karakter (%c)
 
@@ -29,3 +32,4 @@ Fonksiyonlar ve Dönüşümler
 |%x       |Hexadecimal (küçük harf) yazdırır.    |
 |%X       |Hexadecimal (büyük harf) yazdırır.    |
 |%%       |Yüzde işareti yazdırır.               |
+
